@@ -7,9 +7,9 @@ const Header = () => {
             <h1>Vitor Macedo</h1>
             <h3>Desenvolvedor Front-end</h3>
         </div>
-        <div className='img'>
-            <h1>minha imagem</h1>
-        </div>
+
+            <img src="/src/assets/IMG_20230817_211542 (1).png" alt="" />
+
     </header>
     )
 }
