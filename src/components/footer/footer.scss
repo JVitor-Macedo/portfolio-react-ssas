@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+.educacao{
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 90px;
+        font-family: 'Nunito', sans-serif;
+        color:rgba(255, 255, 255, 1) ; 
+    }
+    p{
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        color: rgb(165, 165, 165);
+    }
+}
+
+@media(min-width: 769px){
+    footer{
+        position: relative;
+        .educacao{
+            position: absolute;
+            top: -290px;
+            left: 550px;
+            h1{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+        }
+    }
+}

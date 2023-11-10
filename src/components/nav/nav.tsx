@@ -1,18 +1,13 @@
 import Card from "../card/card";
-import "./nav";
+import "./nav.scss";
+
+
 
 const Nav = () => {
   return (
     <nav>
-      <div className="Projetos">
-        <h1>Meus Projetos</h1>
-        <div>
-          <div className="div-img">
-            <img src="" alt="img-project" />
-          </div>
-          <Card />
-        </div>
-      </div>
+      <h2>Projetos</h2>
+        <Card />
     </nav>
   );
 };
