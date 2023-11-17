@@ -44,6 +44,30 @@ const Card = () => {
           <button><a target="_blank" href="https://github.com/JVitor-Macedo/react-native-IMC">Github</a> </button>
         </div>
       </li>
+      <li className="div-title-project">
+        <img src="" alt="..." />
+        <div className="title">
+          <h2>
+            loading...
+          </h2>
+        </div>
+        <div className="div-btns">
+          <button>Ver Projeto</button>
+          <button>Github </button>
+        </div>
+      </li>
+      <li className="div-title-project">
+        <img src="" alt="..." />
+        <div className="title">
+          <h2>
+            loading...
+          </h2>
+        </div>
+        <div className="div-btns">
+          <button>Ver Projeto</button>
+          <button>Github </button>
+        </div>
+      </li>
     </ul>
 
   );
