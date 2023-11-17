@@ -1,4 +1,7 @@
 import "./card.scss";
+import imgEcomerce from "/src/assets/e-comerce.png"
+import imgConnect from "/src/assets/conect-dev.png"
+import imgMobile from "/src/assets/Screenshot (3).png"
 
 
 
@@ -6,7 +9,7 @@ const Card = () => {
   return (
     <ul className="projects">
       <li className="div-title-project">
-        <img src="/src/assets/conect-dev.png" alt="img-project" />
+        <img src={imgConnect} alt="img-project" />
         <div className="title">
           <h2>
             ConnectDevs
@@ -18,7 +21,7 @@ const Card = () => {
         </div>
       </li>
       <li className="div-title-project">
-        <img src="/src/assets/e-comerce.png" alt="img-project" />
+        <img src={imgEcomerce} alt="img-project" />
         <div className="title">
           <h2>
             E-commerce
@@ -30,7 +33,7 @@ const Card = () => {
         </div>
       </li>
       <li className="div-title-project">
-        <img src="/src/assets/Screenshot (3).png" alt="img-project" />
+        <img src={imgMobile} alt="img-project" />
         <div className="title">
           <h2>
             Mobile Project

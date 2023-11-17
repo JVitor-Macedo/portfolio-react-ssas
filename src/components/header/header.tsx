@@ -1,5 +1,6 @@
 import { FaRegHandPeace } from "react-icons/fa";
 import "./header.scss";
+import imgPerfil from "/src/assets/IMG_20230817_211542 (1).png"
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
           </h1>
           <h3>Desenvolvedor Front-end</h3>
         </div>
-        <img src="/src/assets/IMG_20230817_211542 (1).png" alt="" />
+        <img src={imgPerfil} alt="" />
       </div>
     </header>
   );
